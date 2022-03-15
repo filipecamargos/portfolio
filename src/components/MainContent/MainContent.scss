@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Quicksand:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Zen+Antique&display=swap');
+
 body{
   background-color: #000;
 }
-  
+
+.home_message {
+  margin: 20px 0px 0px 20px;
+  font-size: 21.5px;
+  line-height: 28px;
+  font-family: 'Quicksand', sans-serif;;
+}
+
+.home_message .span_title {
+  line-height: 50px;
+}
 
 .content {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 160px;
   overflow: hidden;
+  margin-top: -200px;
+  margin-left: -100px;
+  
+
 
   font-family: "Lato", sans-serif;
   font-size: 35px;
