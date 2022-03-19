@@ -1,12 +1,14 @@
 import cssClasses from "./Sidebar.module.css";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  //Portfolio information
   const name = "Filipe Ferreira";
   const linkedin = "https://www.linkedin.com/in/filipe-ferreira-eng/";
   const github = "https://github.com/filipecamargos";
   const facebook = "https://www.facebook.com/filipe.camargos.902/";
   const email = "mailto: filipe.atrabalho@gmail.com";
 
+  //Hashtags Interests
   const interests = ["#Software_Engineering", "#Learning", "#Coding"].map(
     (el, i) => {
       return (
@@ -17,15 +19,24 @@ const Sidebar = () => {
     }
   );
 
+  //Nav Bar
   return (
     <div className={cssClasses.sidenav}>
       <img src="/profile.jpg" alt="profile" />
       <h1>{name}</h1>
       <div className={cssClasses.links}>
-        <a href="#about">About</a>
-        <a href="#services">Projects</a>
-        <a href="#clients">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" onClick={props.onAboutClick}>
+          About
+        </a>
+        <a href="#project" onClick={props.onProjectClick}>
+          Projects
+        </a>
+        <a href="#experience" onClick={props.onExperienceClick}>
+          Experience
+        </a>
+        <a href="#contact" onClick={props.onContactClick}>
+          Contact
+        </a>
       </div>
       <div className={cssClasses.icons}>
         <div>
@@ -36,15 +47,14 @@ const Sidebar = () => {
             <i className="fa-brands fa-github"></i>
           </a>
         </div>
-      <div>
-      <a href={email} target="_blank">
-          <i className="fa fa-envelope"></i>
-        </a>
-        <a href={facebook}>
-          <i className="fa-brands fa-facebook"></i>
-        </a>
-      </div>
-
+        <div>
+          <a href={email} target="_blank">
+            <i className="fa fa-envelope"></i>
+          </a>
+          <a href={facebook}>
+            <i className="fa-brands fa-facebook"></i>
+          </a>
+        </div>
       </div>
       <div className={cssClasses.interests}>{interests}</div>
     </div>
