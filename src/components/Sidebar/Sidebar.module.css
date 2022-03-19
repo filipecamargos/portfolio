@@ -31,7 +31,7 @@
     margin-top: 30px;
   }
 
-  .sidenav .links a {
+  .sidenav .links a, button {
     line-height: 45px;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
@@ -42,7 +42,7 @@
     font-size: 23px;
   }
 
-  .sidenav .links a:hover {
+  .sidenav .links a:hover, button:hover {
     color:#16a085;
     text-decoration: underline;
   }

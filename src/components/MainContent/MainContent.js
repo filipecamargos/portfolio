@@ -1,24 +1,32 @@
-import "./MainContent.scss";
+import Home from "./Home/Home";
+import About from "./About/About";
+import Projects from "./Projects/Projects";
+import Experience from "./Experience/Experience";
+import Contact from "./Contact/Contact";
 
-const MainContent = () => {
-  return (
-    <div>
-      <div className="content">
-        <div className="content__container">
-          <p className="content__container__text">Hello</p>
+const MainContent = (props) => {
+  console.log(props.contentDisplay);
+  let pageContent = <Home />;
 
-          <ul className="content__container__list">
-            <li className="content__container__list__item">World!</li>
-            <li className="content__container__list__item">You!</li>
-            <li className="content__container__list__item">Everybody!</li>
-            <li className="content__container__list__item">and Welcome!</li>
-          </ul>
-        </div>
-        <p className="home_message"><span className="span_title">My name is Filipe!</span><br></br>Thank you for visinting my portfolio.
-        <br></br>I hope you can find what you are looking for!</p>
-      </div>
-    </div>
-  );
+  //Switch between the content to dysplay
+  switch (props.contentDisplay) {
+    case "About":
+      pageContent = <About />;
+      break;
+    case "Projects":
+      pageContent = <Projects />;
+      break;
+    case "Experience":
+      pageContent = <Experience />;
+      break;
+    case "Contact":
+      pageContent = <Contact />;
+      break;
+    default:
+      break;
+  }
+
+  return <>{pageContent}</>;
 };
 
 export default MainContent;
