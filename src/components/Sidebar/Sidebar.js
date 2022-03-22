@@ -22,6 +22,7 @@ const Sidebar = (props) => {
     }
   );
 
+  //Deterime if we are not home so the bar show in full at home page and not at the contents
   let sideNavBehave = cssClasses.sidenav;
   if (props.contentDisplay != 'Home') {
     sideNavBehave= cssClasses.sidenavNotHome;
