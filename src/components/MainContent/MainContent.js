@@ -5,7 +5,6 @@ import Experience from "./Experience/Experience";
 import Contact from "./Contact/Contact";
 
 const MainContent = (props) => {
-  console.log(props.contentDisplay);
   let pageContent = <Home />;
 
   //Switch between the content to dysplay

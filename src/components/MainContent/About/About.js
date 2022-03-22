@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className={cssClasses.aboutContent}>
       <div className={cssClasses.aboutMe + " animate__fadeIn"}>
-        <div>
+        <div className={cssClasses.aboutMeText}>
           <h1>Hi There!</h1>
           <p>
             I'm Filipe. I'm a Software Engineer, but you can know all about my

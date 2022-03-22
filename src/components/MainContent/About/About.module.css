@@ -49,3 +49,11 @@
 .imgContent img {
     height: 75vh;
 }
+
+@media (max-width: 790px) {
+    .aboutContent {
+        margin: 0px;
+    }
+
+    .imgContent img {display: none;}
+}

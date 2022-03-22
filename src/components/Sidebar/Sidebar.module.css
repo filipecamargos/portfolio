@@ -2,88 +2,93 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Quicksand&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Zen+Antique&display=swap');
 
-.sidenav {
-    height: 100%;
-    width: 280px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #f2f3f7;
-    overflow-x: hidden;
-    padding-top: 20px;
-    text-align: center; 
+.sidenav, .sidenavNotHome {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f2f3f7;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav img, .sidenavNotHome img {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.sidenav h1, .sidenavNotHome h1 {
+  font-family: Aclonica, sans-serif;
+  font-size: 22px;
+  margin: 8px 0px 0px;
+}
+
+.sidenav .links, .sidenavNotHome .links {
+  margin-top: 30px;
+}
+
+.sidenav .links a, button, .sidenavNotHome .links a {
+  line-height: 45px;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  color: #000;
+  font-size: larger;
+  font-weight: bolder;
+  display: block;
+  font-size: 23px;
+}
+
+.sidenav .links a:hover, button:hover, .sidenavNotHome .links a:hover {
+  color: #16a085;
+  text-decoration: underline;
+}
+
+.sidenav .icons, .sidenavNotHome .icons {
+  margin-top: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sidenav .icons a, .sidenav .icons a {
+  padding: 12px;
+  font-size: 45px;
+  color: #16a085;
+  width: 60px;
+  height: 60px;
+}
+
+.sidenav .icons a:hover, .sidenavNotHome .icons a:hover {
+  color: #919191;
+}
+
+.sidenav .interests, .sidenavNotHome .interests {
+  margin-top: 35px;
+}
+
+.sidenav .hashTag, .sidenavNotHome .hashTag {
+  color: #000;
+  font-weight: bolder;
+  letter-spacing: 0.85px;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+
+
+@media (max-width: 790px) {
+  .sidenav {
+    width: 100%;
   }
 
-  .sidenav img {
-    width: 120px;
-    border-radius: 50%;
-    margin-top: 30px;
+  img {
+    width: 240px;
   }
 
-  .sidenav h1 {
-    font-family: Aclonica,sans-serif;
-    font-size: 22px;
-    margin: 8px 0px 0px;
-  }
-  
-  .sidenav .links {
-    margin-top: 30px;
+  .sidenavNotHome {
+    display: none;
   }
 
-  .sidenav .links a, button {
-    line-height: 45px;
-    text-decoration: none;
-    font-family: 'Comfortaa', cursive;
-    color:#000;
-    font-size: larger;
-    font-weight: bolder;
-    display: block;
-    font-size: 23px;
-  }
-
-  .sidenav .links a:hover, button:hover {
-    color:#16a085;
-    text-decoration: underline;
-  }
-
-  .sidenav .icons {
-    margin-top: 25px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .sidenav .icons a {
-    padding: 12px;
-    font-size: 45px;
-    color: #16a085;
-    width: 60px;
-    height: 60px;
-  }
-
-  .sidenav .icons a:hover {
-    color: #919191;
-  }
-
-  .sidenav .interests {
-    margin-top: 35px;
-  }
-
-  .sidenav .hashTag {
-    color: #000;
-    font-weight: bolder;
-    letter-spacing: 0.85px;
-    font-family: 'Quicksand',Arial,sans-serif;
-  }
-  
-
-
-  @media (max-width: 790px) {
-    .sidenav {
-        width: 100%;
-    }
-    img {
-      width: 240px;
-  }
-      
-  }
+}

@@ -1,4 +1,7 @@
+import React, { useState } from "react";
+
 import cssClasses from "./Sidebar.module.css";
+import cssClassesAbout from "../MainContent/About/About.module.css";
 
 const Sidebar = (props) => {
   //Portfolio information
@@ -19,9 +22,14 @@ const Sidebar = (props) => {
     }
   );
 
+  let sideNavBehave = cssClasses.sidenav;
+  if (props.contentDisplay != 'Home') {
+    sideNavBehave= cssClasses.sidenavNotHome;
+  }
+
   //Nav Bar
   return (
-    <div className={cssClasses.sidenav}>
+    <div className={sideNavBehave}>
       <img src="/profile.jpg" alt="profile" />
       <h1>{name}</h1>
       <div className={cssClasses.links}>

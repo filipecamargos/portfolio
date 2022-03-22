@@ -35,6 +35,7 @@ function App() {
         onProjectClick={handleProjectClick}
         onExperienceClick={handleExperienceClick}
         onContactClick={handleContactClick}
+        contentDisplay={contentDisplay}
       />
       <Main contentDisplay={contentDisplay} />
     </div>
