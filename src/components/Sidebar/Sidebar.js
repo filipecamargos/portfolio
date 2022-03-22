@@ -50,10 +50,10 @@ const Sidebar = (props) => {
       <div className={cssClasses.icons}>
         <div>
           <a href={linkedin}>
-            <i className="fa-brands fa-linkedin-in"></i>
+            <i className="fa fa-linkedin"></i>
           </a>
           <a href={github}>
-            <i className="fa-brands fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
         </div>
         <div>
@@ -61,7 +61,7 @@ const Sidebar = (props) => {
             <i className="fa fa-envelope"></i>
           </a>
           <a href={facebook}>
-            <i className="fa-brands fa-facebook"></i>
+            <i className="fa fa-facebook"></i>
           </a>
         </div>
       </div>

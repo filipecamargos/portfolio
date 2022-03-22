@@ -26,6 +26,9 @@ const About = () => {
             Indian food, self-motivation books, international relations,
             history, and nature.
           </p>
+          <br />
+          <hr />
+          <br />
         </div>
         <div className={cssClasses.aboutContentBottom}>
           <img src="/aboutMe1.JPEG" alt="About Me" />

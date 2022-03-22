@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Mobilesidebar from "./components/Mobilebar/Mobilebar"
 import Main from "./components/MainContent/MainContent";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         onContactClick={handleContactClick}
         contentDisplay={contentDisplay}
       />
+      {(contentDisplay !== "Home") && <Mobilesidebar />}
       <Main contentDisplay={contentDisplay} />
     </div>
   );
