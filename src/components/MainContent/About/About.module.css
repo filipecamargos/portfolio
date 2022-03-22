@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: auto auto;
     color: #f2f3f7;
+    padding: 15px 60px 0px;
 }
 
 .aboutContentBottom {
@@ -26,6 +27,7 @@
 .aboutMe {
     padding-left: 100px;
     padding-top: 50px;
+    animation-duration: 6s;
 }
 
 .aboutMe h1 {
@@ -33,15 +35,15 @@
     font-size: 28px;
 }
 .aboutMe p {
-    font-size: 21.5px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 24.5px;
     font-family: "Quicksand", sans-serif;
 }
 
 .imgContent {
     text-align: center;
-    padding-right: 130px;
-    padding-left: 30px;
+    padding: 13px 130px 0px 30px;
+    animation-duration: 2s;
 }
 
 .imgContent img {
