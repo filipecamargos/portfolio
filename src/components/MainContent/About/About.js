@@ -8,7 +8,7 @@ const About = () => {
           <h1>Hi There!</h1>
           <p>
             I'm Filipe. I'm a Software Engineer, but you can know all about my
-            education, skill, and experience by checking the rest of my
+            education, skills, and experience by checking the rest of my
             portfolio. Here I want to give some insights about who I am.
           </p>
           <p>
