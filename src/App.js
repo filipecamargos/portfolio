@@ -38,7 +38,13 @@ function App() {
         onContactClick={handleContactClick}
         contentDisplay={contentDisplay}
       />
-      {(contentDisplay !== "Home") && <Mobilesidebar />}
+      {(contentDisplay !== "Home") && <Mobilesidebar
+        onAboutClick={handleAboutClick}
+        onProjectClick={handleProjectClick}
+        onExperienceClick={handleExperienceClick}
+        onContactClick={handleContactClick}
+        contentDisplay={contentDisplay}
+      />}
       <Main contentDisplay={contentDisplay} />
     </div>
   );

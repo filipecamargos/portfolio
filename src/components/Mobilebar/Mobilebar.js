@@ -3,9 +3,19 @@ import cssClasses from "./Mobilebar.module.css"
 const Mobilebar = (props) => {
     return (
         <div className={cssClasses.navbar}>
-            <a href="#home" className={cssClasses.active}>Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
+            <a href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <a href="#about" className={props.contentDisplay === 'About' ? cssClasses.active : ''} onClick={props.onAboutClick}>
+                About
+            </a>
+            <a href="#projects" className={props.contentDisplay === 'Projects' ? cssClasses.active : ''} onClick={props.onProjectClick}>
+                Projects
+            </a>
+            <a href="#experience" className={props.contentDisplay === 'Experience' ? cssClasses.active : ''} onClick={props.onExperienceClick}>
+                Experience
+            </a>
+            <a href="#contact" className={props.contentDisplay === 'Contact' ? cssClasses.active : ''} onClick={props.onContactClick}>
+                Contact
+            </a>
         </div>
     )
 }

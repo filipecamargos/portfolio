@@ -70,10 +70,11 @@
 
     .aboutMe {
         padding: 0%;
-        animation-duration: 6s;
+        animation:none;
     }
 
     .imgContent img {
+        animation: none;
         display: none;
     }
 

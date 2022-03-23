@@ -13,6 +13,7 @@
   overflow-x: hidden;
   padding-top: 20px;
   text-align: center;
+  animation-duration: 1.5s;
 }
 
 .sidenav img, .sidenavNotHome img {
@@ -81,6 +82,7 @@
 @media (max-width: 790px) {
   .sidenav {
     width: 100%;
+    animation: none;
   }
 
   img {

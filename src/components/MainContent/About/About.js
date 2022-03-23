@@ -9,7 +9,7 @@ const About = () => {
           <p>
             I'm Filipe. I'm a Software Engineer, but you can know all about my
             education, skill, and experience by checking the rest of my
-            portfolio. Here I want to give some informal insights into who I am.
+            portfolio. Here I want to give some insights about who I am.
           </p>
           <p>
             Born and raised in Brazil, I came to the US in my early 20s. My

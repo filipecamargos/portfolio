@@ -30,7 +30,7 @@ const Sidebar = (props) => {
 
   //Nav Bar
   return (
-    <div className={sideNavBehave}>
+    <div className={sideNavBehave + " animate__slideInLeft"}>
       <img src="/profile.jpg" alt="profile" />
       <h1>{name}</h1>
       <div className={cssClasses.links}>
