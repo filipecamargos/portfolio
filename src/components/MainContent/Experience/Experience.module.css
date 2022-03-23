@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .experienceContent {
     margin-left: 280px;
-    padding: 40px 40px 40px 50px
+    margin-bottom: 35px;
+    padding: 40px 40px 40px 50px;
+    font-family: sans-serif;
 }
 
+.experienceContent h1 i {
+    color: #16a085;
+}
 .experienceContent h1 {
     font-family: Aclonica, sans-serif;
     font-size: 20px;
@@ -50,6 +56,15 @@
 
 .education p {
     margin-left: 20px;
+}
+
+/*Certifications Section*/
+.certifications {
+    margin: 5px 0px 0px 25px;
+}
+.certifications img {
+    width: 100px;
+    padding: 10px 15px 15px 0px ;
 }
 
 @media (max-width: 790px) {

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import cssClasses from "./Sidebar.module.css";
-import cssClassesAbout from "../MainContent/About/About.module.css";
 
 const Sidebar = (props) => {
   //Portfolio information
