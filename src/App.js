@@ -9,6 +9,11 @@ function App() {
   //Manage the page content in relation to the options on Sidebar
   const [contentDisplay, setContentDysplay] = useState("Home");
 
+  //Home click
+  const handleHomeClick = () => {
+    setContentDysplay("Home");
+  };
+
   //About click
   const handleAboutClick = () => {
     setContentDysplay("About");
@@ -27,12 +32,14 @@ function App() {
   return (
     <div>
       <Sidebar
+        onHomeClick={handleHomeClick}
         onAboutClick={handleAboutClick}
         onProjectClick={handleProjectClick}
         onExperienceClick={handleExperienceClick}
         contentDisplay={contentDisplay}
       />
       {(contentDisplay !== "Home") && <Mobilesidebar
+        onHomeClick={handleHomeClick}
         onAboutClick={handleAboutClick}
         onProjectClick={handleProjectClick}
         onExperienceClick={handleExperienceClick}

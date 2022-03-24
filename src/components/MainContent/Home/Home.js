@@ -2,7 +2,7 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home animate__fadeIn">
       <div className="content">
         <div className="content__container">
           <p className="content__container__text">Hello</p>

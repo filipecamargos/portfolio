@@ -31,6 +31,9 @@ const Sidebar = (props) => {
       <img src="/profile.jpg" alt="profile" />
       <h1>{name}</h1>
       <div className={cssClasses.links}>
+      <a href="#about" onClick={props.onHomeClick}>
+          Home
+        </a>
         <a href="#about" onClick={props.onAboutClick}>
           About
         </a>
