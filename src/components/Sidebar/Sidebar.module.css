@@ -29,7 +29,8 @@
 }
 
 .sidenav .links, .sidenavNotHome .links {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .sidenav .links a, button, .sidenavNotHome .links a {

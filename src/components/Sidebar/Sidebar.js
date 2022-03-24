@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import cssClasses from "./Sidebar.module.css";
 
 const Sidebar = (props) => {
@@ -41,9 +39,6 @@ const Sidebar = (props) => {
         </a>
         <a href="#experience" onClick={props.onExperienceClick}>
           Experience
-        </a>
-        <a href="#contact" onClick={props.onContactClick}>
-          Contact
         </a>
       </div>
       <div className={cssClasses.icons}>

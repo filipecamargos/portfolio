@@ -13,9 +13,6 @@ const Mobilebar = (props) => {
             <a href="#experience" className={props.contentDisplay === 'Experience' ? cssClasses.active : ''} onClick={props.onExperienceClick}>
                 Experience
             </a>
-            <a href="#contact" className={props.contentDisplay === 'Contact' ? cssClasses.active : ''} onClick={props.onContactClick}>
-                Contact
-            </a>
         </div>
     )
 }
