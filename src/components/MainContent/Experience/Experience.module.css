@@ -20,7 +20,12 @@
     border-bottom: 3px solid #16a085;
     border-radius: 2px;
     width: 200px;
+    animation-duration: 1.5s;
 
+}
+
+.experienceContent section {
+    animation-duration: 4s;
 }
 
 /*Experience Section*/
@@ -76,4 +81,10 @@
     .experienceContent h1, .experienceSection {
         margin-right: 0;
     }
+
+    .experienceContent h1, .experienceContent section{
+        animation: none;
+    }
+
+
   }

@@ -44,24 +44,24 @@ const Experience = () => {
 
   return (
     <div className={cssClasses.experienceContent}>
-      <h1><i className="fa fa-briefcase" aria-hidden="true"></i> Experience</h1>
-      <section className={cssClasses.experienceSection} >
+      <h1 className="animate__slideInLeft"><i className="fa fa-briefcase" aria-hidden="true"></i> Experience</h1>
+      <section className={cssClasses.experienceSection + " animate__fadeIn"} >
         {experience}
       </section>
-      <h1><i className="fa fa-code" aria-hidden="true"></i> Skills</h1>
-      <section className={cssClasses.certifications}>
-          <img src="/html.png" alt="About Me" />
-          <img src="/CSS.png" alt="About Me" />
-          <img src="/js.png" alt="About Me" />
-          <img src="/react.png" alt="About Me" />
-          <img src="/node.png" alt="About Me" />
-          <img src="/java.png" alt="About Me" />
-          <img src="/python.png" alt="About Me" />
-          <img src="/mongo.png" alt="About Me" />
-          <img src="/SQL.png" alt="About Me" />
+      <h1 className="animate__slideInLeft"><i className="fa fa-code" aria-hidden="true"></i> Skills</h1>
+      <section className={cssClasses.certifications + " animate__fadeIn"}>
+        <img src="/html.png" alt="HTML Icon" />
+        <img src="/CSS.png" alt="CSS Icon" />
+        <img src="/js.png" alt="JS Icon" />
+        <img src="/react.png" alt="React Icon" />
+        <img src="/node.png" alt="Node Icon" />
+        <img src="/java.png" alt="Java Icon" />
+        <img src="/python.png" alt="python Icon" />
+        <img src="/mongo.png" alt="mongo Icon" />
+        <img src="/SQL.png" alt="SQL icon" />
       </section>
-      <h1><i className="fa fa-graduation-cap" aria-hidden="true"></i> Education</h1>
-      <section className={cssClasses.experienceSection} >
+      <h1 className="animate__slideInLeft"><i className="fa fa-graduation-cap" aria-hidden="true"></i> Education</h1>
+      <section className={cssClasses.experienceSection + " animate__fadeIn"} >
         <div className={cssClasses.experienceInfo + " " + cssClasses.education}>
           <a href='/'><i>Brigham Young University - Idaho</i></a>
           <p><b>Bachelor of Science in Software Engineering | GPA: 3.9</b></p>
@@ -71,11 +71,11 @@ const Experience = () => {
           <p>• Academic awarded: Thomas E. Ricks Scholarship 2019 | 2020</p>
         </div>
       </section>
-      <h1><i className="fa fa-certificate" aria-hidden="true"></i> Certifications</h1>
-      <section className={cssClasses.certifications}>
-          <img src="/aws.png" alt="AWS Badge" />
-          <img src="/Badges_v8-07_Practitioner.png" alt="IBM Badge" />
-          <img src="/Team_Essentials.png" alt="IBM Badge" />
+      <h1 className="animate__slideInLeft"><i className="fa fa-certificate" aria-hidden="true"></i> Certifications</h1>
+      <section className={cssClasses.certifications + " animate__fadeIn"}>
+        <img src="/aws.png" alt="AWS Badge" />
+        <img src="/Badges_v8-07_Practitioner.png" alt="IBM Badge" />
+        <img src="/Team_Essentials.png" alt="IBM Badge" />
       </section>
     </div>
   );
