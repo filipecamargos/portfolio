@@ -11,6 +11,7 @@
 .experienceContent h1 i {
     color: #16a085;
 }
+
 .experienceContent h1 {
     font-family: Aclonica, sans-serif;
     font-size: 20px;
@@ -24,7 +25,7 @@
 
 }
 
-.experienceContent section {
+.experienceSection, .certifications, .resume {
     animation-duration: 4s;
 }
 
@@ -72,6 +73,25 @@
     padding: 10px 15px 15px 0px ;
 }
 
+/*Resume*/
+.resume {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.resume a {
+    color: #16a085;
+    font-size: 24px;
+    font-family: Aclonica, sans-serif;
+}
+
+.resume a:hover, i:hover {
+    color: #0022EE;
+}
+
+.resume a i {
+    color: #16a085;
+}
+
 @media (max-width: 790px) {
     .experienceContent {
         margin-left: 0px;
@@ -82,7 +102,7 @@
         margin-right: 0;
     }
 
-    .experienceContent h1, .experienceContent section{
+    .experienceContent h1, .experienceSection, .certifications{
         animation: none;
     }
 

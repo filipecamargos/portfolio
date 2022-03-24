@@ -64,7 +64,7 @@ const Experience = () => {
       <section className={cssClasses.experienceSection + " animate__fadeIn"} >
         <div className={cssClasses.experienceInfo + " " + cssClasses.education}>
           <a href='/'><i>Brigham Young University - Idaho</i></a>
-          <p><b>Bachelor of Science in Software Engineering | GPA: 3.9</b></p>
+          <p><b>Bachelor of Science in Software Engineering | GPA: 3.9 | 2022</b></p>
           <p>Minor in Computer Information Technology</p>
           <p>• Mentored new students in the Heber J. Grant Mentor Program</p>
           <p>• Participated as a member of the Association for Computing Machinery BYU-Idaho Chapter</p>
@@ -76,6 +76,9 @@ const Experience = () => {
         <img src="/aws.png" alt="AWS Badge" />
         <img src="/Badges_v8-07_Practitioner.png" alt="IBM Badge" />
         <img src="/Team_Essentials.png" alt="IBM Badge" />
+      </section>
+      <section className={cssClasses.resume + " animate__fadeIn"}>
+        <a href="/" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a>
       </section>
     </div>
   );
