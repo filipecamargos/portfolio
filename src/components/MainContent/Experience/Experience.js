@@ -2,7 +2,7 @@ import cssClasses from "./Experience.module.css";
 
 const Experience = () => {
   //List of Experiences
-  const experience = [
+  const experienceList = [
     {
       data: 'Apr 2022 - Aug 2022',
       position: 'Software Engineer Intern',
@@ -40,13 +40,13 @@ const Experience = () => {
       <p>{exp.data}</p>
       <hr />
     </div>)
-  })
+  });
 
   return (
     <div className={cssClasses.experienceContent}>
       <h1 className="animate__slideInLeft"><i className="fa fa-briefcase" aria-hidden="true"></i> Experience</h1>
       <section className={cssClasses.experienceSection + " animate__fadeIn"} >
-        {experience}
+        {experienceList}
       </section>
       <h1 className="animate__slideInLeft"><i className="fa fa-code" aria-hidden="true"></i> Skills</h1>
       <section className={cssClasses.certifications + " animate__fadeIn"}>

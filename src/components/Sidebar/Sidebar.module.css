@@ -63,7 +63,7 @@
   height: 60px;
 }
 
-.sidenav .icons a:hover, .sidenavNotHome .icons a:hover {
+.sidenav .icons a i:hover, .sidenavNotHome .icons a i:hover {
   color: #919191;
 }
 
