@@ -6,6 +6,8 @@
     margin-bottom: 35px;
     padding: 40px 40px 40px 50px;
     font-family: sans-serif;
+    color: #f2f3f7;
+    font-family: "Quicksand", sans-serif;
 }
 
 .experienceContent h1 i {
@@ -15,7 +17,6 @@
 .experienceContent h1 {
     font-family: Aclonica, sans-serif;
     font-size: 20px;
-    color: #fff;
     padding: 0px 0px 3px 5px;
     margin-top: 20px;
     border-bottom: 3px solid #16a085;
@@ -38,7 +39,6 @@
 }
 
 .experienceInfo {
-    color: #fff;
     margin: 5px 0px 0px 25px;
     width: 350px;
     margin-top: 20px;
