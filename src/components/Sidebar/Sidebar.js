@@ -47,11 +47,9 @@ const Sidebar = (props) => {
       <div className={cssClasses.icons}>
         <div>
           <a href={linkedin}>
-            <span>Linkedin</span>
             <i className="fa fa-linkedin"></i>
           </a>
           <a href={github}>
-            <span>Github</span>
             <i className="fa fa-github"></i>
           </a>
         </div>
@@ -62,11 +60,9 @@ const Sidebar = (props) => {
             rel="noreferrer"
             className={cssClasses.env}
           >
-            <span>Email</span>
             <i className="fa fa-envelope"></i>
           </a>
           <a href={facebook}>
-            <span>Facebook</span>
             <i className="fa fa-facebook"></i>
           </a>
         </div>
