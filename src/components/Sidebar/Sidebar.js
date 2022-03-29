@@ -21,7 +21,7 @@ const Sidebar = (props) => {
 
   //Deterime if we are not home so the bar show in full at home page and not at the contents
   let sideNavBehave = cssClasses.sidenav;
-  if (props.contentDisplay != 'Home') {
+  if (props.contentDisplay !== 'Home') {
     sideNavBehave= cssClasses.sidenavNotHome;
   }
 
@@ -54,7 +54,7 @@ const Sidebar = (props) => {
           </a>
         </div>
         <div>
-          <a href={email} target="_blank" className={cssClasses.env}>
+          <a href={email} target="_blank" rel="noreferrer" className={cssClasses.env}>
             <i className="fa fa-envelope"></i>
           </a>
           <a href={facebook}>
