@@ -65,7 +65,11 @@
 }
 
 .sidenav .icons a span, .sidenavNotHome .icons a span {
-  display: none;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
 }
 
 .env {
