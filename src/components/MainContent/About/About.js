@@ -1,6 +1,7 @@
 import cssClasses from "./About.module.css";
 
 const About = () => {
+  window.scrollTo(0, 0);
   return (
     <div className={cssClasses.aboutContent}>
       <div className={cssClasses.aboutMe + " animate__fadeIn"}>

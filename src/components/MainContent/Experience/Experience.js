@@ -1,6 +1,8 @@
 import cssClasses from "./Experience.module.css";
 
 const Experience = () => {
+  window.scrollTo(0, 0);
+
   //List of Experiences
   const experienceList = [
     {

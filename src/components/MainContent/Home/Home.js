@@ -1,6 +1,8 @@
 import "./Home.scss";
 
 const Home = () => {
+  window.scrollTo(0, 0);
+  
   return (
     <div className="home animate__fadeIn">
       <div className="content">

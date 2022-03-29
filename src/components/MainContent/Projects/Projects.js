@@ -2,7 +2,8 @@ import cssClassesExp from "../Experience/Experience.module.css";
 import cssClasses from "./Projects.module.css";
 
 const Projects = () => {
-
+  window.scrollTo(0, 0);
+  
   const projectList = [
     {
       img: "\\sloop.png",
