@@ -54,7 +54,7 @@ const Sidebar = (props) => {
           </a>
         </div>
         <div>
-          <a href={email} target="_blank">
+          <a href={email} target="_blank" className={cssClasses.env}>
             <i className="fa fa-envelope"></i>
           </a>
           <a href={facebook}>

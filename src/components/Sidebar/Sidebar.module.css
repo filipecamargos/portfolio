@@ -53,6 +53,7 @@
   margin-top: 25px;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  justify-content: center;
 }
 
 .sidenav .icons a, .sidenavNotHome .icons a {
@@ -61,6 +62,10 @@
   color: #16a085;
   width: 60px;
   height: 60px;
+}
+
+.env {
+  margin-left: -10px;
 }
 
 .sidenav .icons a i:hover, .sidenavNotHome .icons a i:hover {
