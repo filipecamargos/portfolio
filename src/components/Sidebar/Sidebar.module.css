@@ -64,6 +64,10 @@
   height: 60px;
 }
 
+.sidenav .icons a span, .sidenavNotHome .icons a span {
+  display: none;
+}
+
 .env {
   margin-left: -10px;
 }

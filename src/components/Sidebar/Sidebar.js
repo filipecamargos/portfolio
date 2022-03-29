@@ -21,8 +21,8 @@ const Sidebar = (props) => {
 
   //Deterime if we are not home so the bar show in full at home page and not at the contents
   let sideNavBehave = cssClasses.sidenav;
-  if (props.contentDisplay !== 'Home') {
-    sideNavBehave= cssClasses.sidenavNotHome;
+  if (props.contentDisplay !== "Home") {
+    sideNavBehave = cssClasses.sidenavNotHome;
   }
 
   //Nav Bar
@@ -31,7 +31,7 @@ const Sidebar = (props) => {
       <img src="/profile.jpg" alt="profile" />
       <h1>{name}</h1>
       <div className={cssClasses.links}>
-      <a href="#about" onClick={props.onHomeClick}>
+        <a href="#about" onClick={props.onHomeClick}>
           Home
         </a>
         <a href="#about" onClick={props.onAboutClick}>
@@ -47,17 +47,26 @@ const Sidebar = (props) => {
       <div className={cssClasses.icons}>
         <div>
           <a href={linkedin}>
+            <span>Linkedin</span>
             <i className="fa fa-linkedin"></i>
           </a>
           <a href={github}>
+            <span>Github</span>
             <i className="fa fa-github"></i>
           </a>
         </div>
         <div>
-          <a href={email} target="_blank" rel="noreferrer" className={cssClasses.env}>
+          <a
+            href={email}
+            target="_blank"
+            rel="noreferrer"
+            className={cssClasses.env}
+          >
+            <span>Email</span>
             <i className="fa fa-envelope"></i>
           </a>
           <a href={facebook}>
+            <span>Facebook</span>
             <i className="fa fa-facebook"></i>
           </a>
         </div>
